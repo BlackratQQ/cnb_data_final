@@ -1,0 +1,11 @@
+{control registrationForm}
+
+{if (@$form_name<>'')}
+  <h1> Ahoj {$form_name} </h1>
+{/if}
+
+{if (@$form_gender=='m')}
+  <h1> Ahoj muži </h1>
+  {else}
+  <h1>Ahoj ženo</h1>
+{/if}
